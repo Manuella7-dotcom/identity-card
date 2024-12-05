@@ -1,0 +1,30 @@
+#horizontal{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-direction: row ;
+}
+
+#Date{
+    font-weight: bold;
+}
+#photo{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#myName{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: oblique;
+}
+.image{
+    background-color: rgba(225, 250, 114, 0.63);
+    padding: 10px;
+    text-align: center;
+    /* <!--and on the css page, i have to type it as .image because it is under class. --> */ 
+}
+
+#subtitles{
+    background-color:rgb(160, 238, 16);
+    border-radius:  10px;
+}

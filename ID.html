@@ -1,0 +1,63 @@
+<!--boilerplate code Ctrl and /--> <!DOCTYPE html>
+<!--  -->     
+<!--shift then 1-->
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDENTITY CARD</title>
+    <!-- 60% means %of its original size -->
+    <style> img{height:20px; width: 20px;}
+     
+     #card{
+        background-color: rgba(231, 11, 29, 0.753);
+        position:absolute;
+        max-width: 900px;}  
+    /* additionals are made under #card, after background color */
+    #names{background-color: rgba(255, 166, 0, 0.452);
+        padding: 12.5px;
+
+        text-align: center;}
+    #info{background-color: rgba(109, 168, 21, 0.397);}
+    #footer{background-color: rgba(25, 1, 48, 0.637);}
+/*this is what i used to center the image img.  */
+    /* div.image{text-align: center;} */
+    </style>  <!--internal CSS selector-->   <!-- shift alt a -->     
+    <!-- this link is used to make sure the changes put in ID.css take effect -->
+<link rel="stylesheet" href="ID.css">     
+</head>
+<body>
+    <div id="card">
+                <!-- div#heading is what you type to get a div id, to get a class you type div.heading -->
+        <div id="subtitles">
+    <h1 style="color: blue; text-align: center;">CODE QUEEN ROCKTARS</h1>    <!--after typing color, press Enter key for automatic fill-->
+    <h3 style="color:red; text-decoration:underline; text-shadow: midnightblue; text-align: center;">!we are heroes!</h3>
+        <!-- px and % will always appear differently, px borders will be fixed, only rounding on the corners whereas % will round based on the size of the box -->
+</div>
+    <div id="horizontal">
+    <div class="image">  <!--this helps to center the image as seen on line 21-->
+        <img id="photo" src="P.jpg" alt="Manuella passport phto"/>
+    </div>
+  <!--also  -->
+<!-- apparently, if you type div.image, the layout for it automatically comes under class not id, -->
+    <!--and on the css page, i have to type it as .image because it is under class. -->
+<!--alt means the name that appears on the picture-->
+    <!-- /*solid color names, rgb, rgba */ this is a CSS selector-->
+    <!--DIV NAMES  -->
+    <div id="names">
+        <p id="myName">Nampeera Manuella</p>
+        <p>Techincian</p>
+    </div>
+    </div>
+<div id="info">
+    <p> ID Number: C24820156</p>
+    <p>Department: IT</p>
+    <p class="Clearance">Level of Clearance: 1</p>
+    <p id="Date"> Date Issued: 4/11/2024</p>
+    <p>Date of Expiry:4/11/2025</p>
+</div>
+<div id="footer">2024</div>
+</div>
+</body>
+</html>
